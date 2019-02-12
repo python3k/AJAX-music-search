@@ -7,17 +7,27 @@
     <title>Music Search</title>
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+    <style>
+   
+    </style>
+
+
 </head>
 <body>
 
         <section>
             <h1>Music search</h1>
-            <input type="search" class="search" placeholder="Your favorite artist"/>
-            <ul class="results"></ul>
+            <form autocomplete="off" action="/action_php">
+               <div class="autocomplete">
+                   <input id="myInput" type="search" class="search" placeholder="Your favorite artist"/>
+               </div>
+               
+            </form>
         </section>
 
         <section class="content">
-            <h3 class="artist"></h1>
+            <h3 class="artist"><ul class="results"></ul></h1>
             <ul class="songs"></ul>
         </section>
 
