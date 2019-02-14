@@ -35,7 +35,7 @@ $(document).ready(function(){
                              let videoURL= "https://www.youtube.com/embed/"+videoID;
                              $(".songs").append(
                                 `<li class="list-group-item">
-                                    <iframe width="420" height="315" src=${videoURL}></iframe>
+                                    <iframe width="600" height="400" src=${videoURL}></iframe>
                                  </li>`
                              );
                              
