@@ -10,8 +10,13 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     
-    <style>
-   
+    <style>      
+     a {
+          text-decoration: none;
+          font-family: inherit;
+          font-size: 20px;
+          color:white;
+     } 
     </style>
 
 
@@ -24,12 +29,11 @@
                <div class="autocomplete">
                    <input id="myInput" type="search" class="search" placeholder="Your favorite artist"/>
                </div>
-               <button id="show" type="button">show</button>
             </form>
         </section>
 
         <section class="content">
-            <h3 class="artist"><ul id="results"></ul></h1>
+            <h3 class="artist"><ul id="results"></ul></h3>
             <ul class="songs"></ul>
         </section>
 
